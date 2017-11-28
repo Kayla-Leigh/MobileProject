@@ -39,7 +39,7 @@
                                 BindingContext="{Binding Source={x:Reference AdoptionListView}, Path=BindingContext}"
                                 Command="{Binding NavToMoreInfoPageCommand}"
                                 CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
-                                Text="More" />
+                                Text="More " />
                         </ViewCell.ContextActions>
                         <ViewCell.View>
                             <StackLayout
