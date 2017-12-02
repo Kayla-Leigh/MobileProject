@@ -7,24 +7,25 @@
     x:Class="finalProject.Views.MainPage"
     Title="MainPage"
     Padding="0,20,0,0">
-    <StackLayout
-        Padding="0,20,0,0"
-        HorizontalOptions="Center"
-        VerticalOptions="Start">
-        <Label Text="PetFinder" Font="Bold" FontSize="30" HorizontalOptions="Center"/>
+
+    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
+        <Label Text="PetFinder" FontSize="30" Font="Bold" HorizontalTextAlignment="Center"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
         <Button
             Text="About Us"
             Command="{Binding NavToNewPageCommand}" />
+        <Button Text="Advanced Search" />
+            </StackLayout>
         <StackLayout
             Orientation="Horizontal"
             HorizontalOptions="CenterAndExpand">
-            <Entry
+             <Entry
                 Placeholder="Ex: 92078"
                 Text="{Binding LocationEnteredByUser}"
                 WidthRequest="200" />
             <Button
                 Text="Zip Code"
-                Command="{Binding GetAdoptionForLocationCommand}" />
+                Command="{Binding GetAdoptionForLocationCommand}" />        
         </StackLayout>
         <ListView
             x:Name="AdoptionListView"
@@ -66,5 +67,5 @@
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-    </StackLayout>
+</StackLayout>
 </ContentPage>

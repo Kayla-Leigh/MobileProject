@@ -2,16 +2,11 @@
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.750F3565-68C0-4041-ABAA-BF2762172D27">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.finalProject.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Models/AdoptionModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/AboutUs.xaml">
     <Files>
-      <File FileName="finalProject/Models/AdoptionModel.cs" Line="34" Column="9" />
+      <File FileName="finalProject/Views/AboutUs.xaml" Line="14" Column="81" />
+      <File FileName="finalProject/Views/MainPage.xaml" Line="12" Column="45" />
       <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="90" Column="60" />
-      <File FileName="finalProject/ViewModels/AboutUsViewModel.cs" Line="39" Column="10" />
-      <File FileName="finalProject/App.xaml.cs" Line="24" Column="49" />
-      <File FileName="finalProject.Droid/Resources/drawable/MainPage.xaml" Line="68" Column="15" />
-      <File FileName="finalProject/Views/AboutUs.xaml" Line="19" Column="1" />
-      <File FileName="finalProject.iOS/Resources/LaunchScreen.xib" />
-      <File FileName="finalProject/Views/MainPage.xaml" Line="70" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
