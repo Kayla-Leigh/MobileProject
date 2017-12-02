@@ -71,8 +71,8 @@ namespace finalProject.ViewModels
             HttpClient client = new HttpClient();
             var uri = new Uri(
                 string.Format(
-                    $"http://api.openweathermap.org/data/2.5/weather?q={LocationEnteredByUser}&units=imperial&APPID=" +
-                    $"{ApiKeys.AdoptionKey}"));
+                    $"http://api.petfinder.com/pet.find?key={ApiKeys.AdoptionKey}&location" +
+                    $"{LocationEnteredByUser}" + "&format=json"));
             var response = await client.GetAsync(uri);
             AdoptionItem adoptionData = null;
             if (response.IsSuccessStatusCode)
@@ -87,7 +87,7 @@ namespace finalProject.ViewModels
         {
             var navParams = new NavigationParameters();
             navParams.Add("NavFromPage", "MainPageViewModel");
-            await _navigationService.NavigateAsync("SamplePageForNavigation", navParams);
+            await _navigationService.NavigateAsync("AboutUs", navParams);
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)

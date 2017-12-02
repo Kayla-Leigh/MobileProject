@@ -11,18 +11,19 @@
         Padding="0,20,0,0"
         HorizontalOptions="Center"
         VerticalOptions="Start">
+        <Label Text="PetFinder" Font="Bold" FontSize="30" HorizontalOptions="Center"/>
         <Button
-            Text="Navigation Example"
+            Text="About Us"
             Command="{Binding NavToNewPageCommand}" />
         <StackLayout
             Orientation="Horizontal"
             HorizontalOptions="CenterAndExpand">
             <Entry
-                Placeholder="Enter Location"
+                Placeholder="Ex: 92078"
                 Text="{Binding LocationEnteredByUser}"
                 WidthRequest="200" />
             <Button
-                Text="Search Adoption"
+                Text="Zip Code"
                 Command="{Binding GetAdoptionForLocationCommand}" />
         </StackLayout>
         <ListView
@@ -39,7 +40,7 @@
                                 BindingContext="{Binding Source={x:Reference AdoptionListView}, Path=BindingContext}"
                                 Command="{Binding NavToMoreInfoPageCommand}"
                                 CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
-                                Text="More " />
+                                Text="More" />
                         </ViewCell.ContextActions>
                         <ViewCell.View>
                             <StackLayout

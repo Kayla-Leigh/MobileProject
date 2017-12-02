@@ -22,6 +22,7 @@ namespace finalProject
         protected override void RegisterTypes()
         {
             Container.RegisterTypeForNavigation<MainPage>();
+            Container.RegisterTypeForNavigation<AboutUs>();
         }
     }
 }

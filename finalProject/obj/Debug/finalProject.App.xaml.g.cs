@@ -11,7 +11,7 @@
 namespace finalProject {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Kayla/Projects/finalProject/finalProject/App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/App.xaml")]
     public partial class App : global::Prism.Unity.PrismApplication {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
