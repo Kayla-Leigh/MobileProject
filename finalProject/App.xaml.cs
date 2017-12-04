@@ -23,6 +23,7 @@ namespace finalProject
         {
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<AboutUs>();
+            Container.RegisterTypeForNavigation<AdvancePage>();
         }
     }
 }

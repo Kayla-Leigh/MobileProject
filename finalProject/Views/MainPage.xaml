@@ -14,7 +14,8 @@
         <Button
             Text="About Us"
             Command="{Binding NavToNewPageCommand}" />
-        <Button Text="Advanced Search" />
+        <Button Text="Advanced Search" 
+                Command="{Binding NavToAdvancePageCommand}" />
             </StackLayout>
         <StackLayout
             Orientation="Horizontal"

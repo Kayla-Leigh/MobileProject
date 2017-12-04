@@ -5,8 +5,7 @@
     xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
     prism:ViewModelLocator.AutowireViewModel="True"
-    Title="PetFinder"
-    x:Class="finalProject.Views.AboutUs"
+    x:Class="finalProject.Views.AdvancePage"
     Padding="0,20,0,0">
 
     <StackLayout Padding="0,20,0,0" HorizontalOptions="Center"> 
@@ -17,4 +16,3 @@
     </StackLayout>
        
 </ContentPage>
-

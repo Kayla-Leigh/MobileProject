@@ -36,3 +36,4 @@
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.Views.MainPage.xaml.g.cs
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.dll
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.pdb
+/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.Views.AdvancePage.xaml.g.cs

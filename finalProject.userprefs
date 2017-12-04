@@ -2,12 +2,31 @@
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.750F3565-68C0-4041-ABAA-BF2762172D27">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.finalProject.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/AboutUs.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/AdvancePage.xaml.cs">
     <Files>
-      <File FileName="finalProject/Views/AboutUs.xaml" Line="14" Column="81" />
-      <File FileName="finalProject/Views/MainPage.xaml" Line="12" Column="45" />
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="90" Column="60" />
+      <File FileName="finalProject/ViewModels/AdvancePageViewModel.cs" Line="52" Column="14" />
+      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="97" Column="59" />
+      <File FileName="finalProject/Views/AdvancePage.xaml" Line="7" Column="52" />
+      <File FileName="finalProject/ViewModels/AboutUsViewModel.cs" Line="48" Column="46" />
+      <File FileName="finalProject/Views/AdvancePage.xaml.cs" Line="13" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="finalProject" expanded="True">
+            <Node name="finalProject" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="AdvancePage.xaml" expanded="True">
+                  <Node name="AdvancePage.xaml.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="finalProject.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
