@@ -2,17 +2,20 @@
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15A2897D-B86A-41AA-9E94-B677BAF7B00F">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.finalProject.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/ViewModels/MainPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/MoreInfoPage.xaml">
     <Files>
-      <File FileName="finalProject/Views/MainPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="finalProject/App.xaml.cs" Line="1" Column="1" />
-      <File FileName="finalProject/Models/AdoptionModel.cs" Line="34" Column="14" />
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="finalProject/Views/MainPage.xaml" Line="55" Column="56" />
+      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="42" Column="49" />
+      <File FileName="finalProject/Models/AdoptionModel.cs" Line="51" Column="37" />
+      <File FileName="finalProject.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="23" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/ViewModels/MainPageViewModel.cs" relfile="finalProject/ViewModels/MainPageViewModel.cs" line="83" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

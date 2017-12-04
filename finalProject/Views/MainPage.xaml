@@ -11,14 +11,11 @@
         Padding="0,20,0,0"
         HorizontalOptions="Center"
         VerticalOptions="Start">
-        <Button
-            Text="Navigation Example"
-            Command="{Binding NavToNewPageCommand}" />
         <StackLayout
             Orientation="Horizontal"
             HorizontalOptions="CenterAndExpand">
             <Entry
-                Placeholder="Enter Location"
+                Placeholder="Enter Zip Code"
                 Text="{Binding LocationEnteredByUser}"
                 WidthRequest="200" />
             <Button
@@ -44,21 +41,21 @@
                         <ViewCell.View>
                             <StackLayout
                                 Orientation="Horizontal">
-                                <Label
+                                <!--<Label
                                     x:Name="LocationNameLabel"
                                     Text="{Binding Name}"
                                     VerticalOptions="Center"
-                                    Margin="10" />
+                                    Margin="10" />-->
                                 <Label
                                     x:Name="TemperatureLabel"
-                                    Text="{Binding Main.Temp, StringFormat='Temp: {0}'}"
+                                    Text="{Binding PetFinder.Pets.Pet[0].Animal.AnimalType}"
                                     VerticalOptions="Center"
                                     Margin="3" />
-                                <Label
+                                <!--<Label
                                     x:Name="CloudLabel"
                                     Text="{Binding Clouds.All, StringFormat='Cloud %: {0}'}"
                                     VerticalOptions="Center"
-                                    Margin="3" />
+                                    Margin="3" />-->
                             </StackLayout>
                         </ViewCell.View>
                     </ViewCell>

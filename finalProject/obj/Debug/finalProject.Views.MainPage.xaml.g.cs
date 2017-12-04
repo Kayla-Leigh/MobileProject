@@ -11,7 +11,8 @@
 namespace finalProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Kayla/Projects/finalProject/finalProject/Views/MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/Views/MainPage.x" +
+        "aml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

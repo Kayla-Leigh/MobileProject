@@ -9,16 +9,53 @@ namespace finalProject.Models
     {
         public partial class AdoptionItem
         {
-            public partial class Pets
+            [JsonProperty("petfinder")]
+            public PetFinder PetFinder { get; set; }
+
+        }
+        public partial class PetFinder
+        {
+            [JsonProperty("pets")]
+            public Pets Pets { get; set; }
+        }
+
+         public partial class Pets
+         {
+            [JsonProperty("pet")]
+            public Pet[] Pet { get; set; }
+          }
+            
+        public partial class Pet 
+        {
+            [JsonProperty("contact")]
+            public Contact Contact { get; set; }
+
+            //[JsonProperty("media")]
+            //public Media Media { get; set; }
+
+            [JsonProperty("breeds")]
+            public Breeds[] Breeds { get; set; }
+
+            [JsonProperty("animal")]
+            public Animal Animal { get; set; }
+        }
+
+            public partial class Animal
             {
-                [JsonProperty("pet")]
-                public Pet Pet { get; set; }
+                [JsonProperty("$t")]
+                public string AnimalType { get; set; }
             }
 
-            public partial class Pet
+            public partial class Breeds
             {
-                [JsonProperty("contact")]
-                public Contact Contact { get; set; }
+                [JsonProperty("breed")]
+                public Breed Breed { get; set; }
+            }
+
+            public partial class Breed
+            {
+                [JsonProperty("$t")]
+                public string BreedType { get; set; }
             }
 
             public partial class Contact
@@ -27,12 +64,32 @@ namespace finalProject.Models
                 public Zip Zip { get; set; }
             }
 
+            public partial class Media
+            {
+                [JsonProperty("photos")]
+                public Photos Photos { get; set; }
+            }
+
+            public partial class Photos
+            {
+                [JsonProperty("photo")]
+                public Photo Photo { get; set; }
+            }
+
+            public partial class Photo
+            {
+                [JsonProperty("$t")]
+                public string Photograph { get; set; }
+            }
+
             public partial class Zip
             {
                 [JsonProperty("$t")]
-                public double zip { get; set; }
+                public double ZipCode { get; set; }
             }
-        }
+        
+
+
 
 
         public partial class AdoptionItem
