@@ -87,7 +87,8 @@ namespace finalProject.ViewModels
         {
             var navParams = new NavigationParameters();
             navParams.Add("NavFromPage", "MainPageViewModel");
-            await _navigationService.NavigateAsync("SamplePageForNavigation", navParams);
+            await _navigationService.NavigateAsync("AboutUs", navParams);
+
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)
