@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.750F3565-68C0-4041-ABAA-BF2762172D27">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.finalProject.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/App.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/MainPage.xaml.cs">
     <Files>
       <File FileName="finalProject/Views/MainPage.xaml" Line="72" Column="15" />
       <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="42" Column="49" />
