@@ -16,6 +16,7 @@ namespace finalProject.ViewModels
         public DelegateCommand NavToNewPageCommand { get; set; }
         public DelegateCommand GetAdoptionForLocationCommand { get; set; }
         public DelegateCommand<AdoptionItem> NavToMoreInfoPageCommand { get; set; }
+        public DelegateCommand<AdoptionItem> DeleteCommand { get; set; }
 
         private string _buttonText;
         public string ButtonText
@@ -54,6 +55,7 @@ namespace finalProject.ViewModels
             NavToNewPageCommand = new DelegateCommand(NavToNewPage);
             GetAdoptionForLocationCommand = new DelegateCommand(GetAdoptionForLocation);
             NavToMoreInfoPageCommand = new DelegateCommand<AdoptionItem>(NavToMoreInfoPage);
+            DeleteCommand = new DelegateCommand<AdoptionItem>(DeleteView);
 
             Title = "Xamarin Forms Application + Prism";
             ButtonText = "Add Name";
@@ -64,6 +66,11 @@ namespace finalProject.ViewModels
             var navParams = new NavigationParameters();
             navParams.Add("AdoptionItemInfo", adoptionItem);
             await _navigationService.NavigateAsync("MoreInfoPage", navParams);
+        }
+
+        private void DeleteView(AdoptionItem adoptionItem)
+        {
+            AdoptionCollection.RemoveAt(AdoptionCollection.IndexOf(adoptionItem));
         }
 
         internal async void GetAdoptionForLocation()

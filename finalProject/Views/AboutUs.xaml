@@ -8,7 +8,7 @@
     Title="PetFinder"
     x:Class="finalProject.Views.AboutUs"
     Padding="0,20,0,0">
-
+    <ScrollView>
     <StackLayout Padding="0,20,0,0" HorizontalOptions="Center"> 
          <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
          <Label Text="An Easy way to find your furry friend!" TextColor="#3BB9FF" FontSize="15" HorizontalTextAlignment="Center" />
@@ -19,8 +19,15 @@
         <Button Text="Website" TextColor="#3BB9FF" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />
         </StackLayout>
         <Label Text="---------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center"/> 
+        <Button Text="Register with PetFinder" TextColor="#3BB9FF" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />
+        <Label Text="PetFinder is updated DAILY. Organizations wishing to participate should register. Only nonprofit organizations will be included" TextColor="#3BB9FF"/>
+        <Label Text="PetFinder is made up of animal-care professionals and regular people volunteering for their local animal welfare organizations all working together to maintain active and accurate homeless pet lists." TextColor="#3BB9FF"/>
+        <Label Text="Our website:" TextColor="#3BB9FF"/>
+        <Label Text="https://www.petfinder.com" TextColor="#0099FF"/>
+        <Label Text="Email:" TextColor="#3BB9FF"/>
+        <Label Text="pets@petfinder.com" TextColor="#0099FF"/>
         <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
     </StackLayout>
-
+    </ScrollView>
 </ContentPage>
 
