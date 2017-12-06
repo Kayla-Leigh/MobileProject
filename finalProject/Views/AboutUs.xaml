@@ -10,8 +10,11 @@
     Padding="0,20,0,0">
 
     <StackLayout Padding="0,20,0,0" HorizontalOptions="Center"> 
-        <Image Source="petfinder3.png" />
-        <Label Text="This App will help you find your furry friend!" FontSize="25" HorizontalTextAlignment="Center" />
+        <Label Text="PetFinder" Font="Bold" FontSize="25" HorizontalTextAlignment="Center" />
+        <Label Text="An Easy way to find your furry friend!" FontSize="15" HorizontalTextAlignment="Center" />
+        <Label Text="------------------------------------------------" />
+        <Label Text="ABOUT US" />
+        <Button Text="Email"/>
 
         <Button Text="Back" Command="{Binding GoBackCommand}" />
     </StackLayout>

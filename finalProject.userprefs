@@ -1,26 +1,25 @@
 ﻿<Properties StartupConfiguration="{F9A9F719-18D2-4AEE-89EC-108A23B5BE00}|Default">
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.750F3565-68C0-4041-ABAA-BF2762172D27" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../Library/Frameworks/Mono.framework/Versions/5.4.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets">
     <Files>
-      <File FileName="finalProject/Views/MainPage.xaml" Line="66" Column="15" />
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="92" Column="10" />
-      <File FileName="finalProject/Models/AdoptionModel.cs" Line="1" Column="1" />
-      <File FileName="finalProject.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="finalProject/Views/MainPage.xaml" Line="68" Column="15" />
+      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="84" Column="10" />
+      <File FileName="finalProject/Models/AdoptionModel.cs" Line="111" Column="2" />
       <File FileName="finalProject/Views/MainPage.xaml.cs" Line="1" Column="1" />
       <File FileName="finalProject/APIKeys.cs" Line="1" Column="1" />
       <File FileName="finalProject/App.xaml" Line="4" Column="1" />
-      <File FileName="finalProject/App.xaml.cs" Line="29" Column="1" />
-      <File FileName="finalProject/Views/AboutUs.xaml" Line="21" Column="1" />
+      <File FileName="finalProject/App.xaml.cs" Line="8" Column="1" />
+      <File FileName="finalProject/Views/AboutUs.xaml" Line="24" Column="1" />
       <File FileName="finalProject/Views/AboutUs.xaml.cs" Line="1" Column="1" />
       <File FileName="finalProject/ViewModels/AboutUsViewModel.cs" Line="55" Column="2" />
       <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="36" Column="9" />
+      <File FileName="finalProject.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="../../../../../Library/Frameworks/Mono.framework/Versions/5.4.1/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets" Line="2003" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/ViewModels/MainPageViewModel.cs" relfile="finalProject/ViewModels/MainPageViewModel.cs" line="83" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
