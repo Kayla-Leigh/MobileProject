@@ -13,10 +13,10 @@
         <Label Text="---------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center"/> 
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
         <Button
-            Text="About Us" BorderColor="Gray" TextColor="#3BB9FF" BorderRadius = "5" BorderWidth = "1" WidthRequest="90"
+            Text="About Us" TextColor="#3BB9FF" BorderColor="Silver" BorderRadius = "5" BorderWidth = "1" WidthRequest="90"
             Command="{Binding NavToNewPageCommand}" />
-            <Button Text="Dog Breeds"  TextColor="#3BB9FF" BorderColor="Gray" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
-            <Button Text="Cat Breeds" TextColor="#3BB9FF"  BorderColor="Gray" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
+            <Button Text="Dog Breeds"  TextColor="#3BB9FF" BorderColor="Silver" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
+            <Button Text="Cat Breeds" TextColor="#3BB9FF" BorderColor="Silver" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
             </StackLayout>
         <StackLayout
             Orientation="Horizontal"
