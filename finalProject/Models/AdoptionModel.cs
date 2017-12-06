@@ -30,12 +30,6 @@ namespace finalProject.Models
             [JsonProperty("contact")]
             public Contact Contact { get; set; }
 
-            //[JsonProperty("media")]
-            //public Media Media { get; set; }
-
-            /*[JsonProperty("breeds")]
-            public Breeds[] Breeds { get; set; }*/
-
             [JsonProperty("animal")]
             public Animal Animal { get; set; }
         }
@@ -45,18 +39,6 @@ namespace finalProject.Models
             [JsonProperty("$t")]
             public string AnimalType { get; set; }
         }
-
-        /*public partial class Breeds
-        {
-            [JsonProperty("breed")]
-            public Breed Breed { get; set; }
-        }*/
-
-        /*public partial class Breed
-        {
-            [JsonProperty("$t")]
-            public string BreedType { get; set; }
-        }*/
 
         public partial class Contact
         {
@@ -87,10 +69,6 @@ namespace finalProject.Models
             [JsonProperty("$t")]
             public double ZipCode { get; set; }
         }
-
-
-
-
 
         public partial class AdoptionItem
         {

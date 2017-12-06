@@ -75,6 +75,7 @@
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.Views.AboutUs.xaml.g.cs
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.dll
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.pdb
+<<<<<<< HEAD
 /Users/wenkewahl/Desktop/Christmas-FinalProject/MobileProject/finalProject/bin/Debug/finalProject.dll
 /Users/wenkewahl/Desktop/Christmas-FinalProject/MobileProject/finalProject/bin/Debug/finalProject.pdb
 /Users/wenkewahl/Desktop/Christmas-FinalProject/MobileProject/finalProject/bin/Debug/Microsoft.Practices.ServiceLocation.dll
@@ -154,3 +155,6 @@
 /Users/wenkewahl/Desktop/MobileProject/finalProject/obj/Debug/finalProject.pdb
 /Users/wenkewahl/Desktop/MobileProject/finalProject/bin/Debug/Microsoft.Practices.ServiceLocation.dll.mdb
 /Users/wenkewahl/Desktop/MobileProject/finalProject/obj/Debug/finalProject.Views.MapPage.xaml.g.cs
+=======
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.Views.AboutUs.xaml.g.cs
+>>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23

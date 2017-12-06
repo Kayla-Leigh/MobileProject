@@ -1,9 +1,16 @@
-# Version: 11.4.0.214 (d15-5: c4240f3f)
+# Version: 11.3.0.47 (xcode9.1: 51128b8c)
 # [first argument, ignore] # --cache
+<<<<<<< HEAD:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/arguments
 /Library/Frameworks/Xamarin.iOS.framework/Versions/11.4.0.214/lib/mtouch/mtouch.exe \
 	/Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache \
 	--sim \
 	/Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/finalProject.iOS.app \
+=======
+/Library/Frameworks/Xamarin.iOS.framework/Versions/11.3.0.47/lib/mtouch/mtouch.exe \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-cache \
+	--sim \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/finalProject.iOS.app \
+>>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-cache/arguments
 	--executable \
 	finalProject.iOS \
 	--debug \
@@ -18,6 +25,7 @@
 	--http-message-handler=HttpClientHandler \
 	--abi=x86_64 \
 	--symbollist \
+<<<<<<< HEAD:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/arguments
 	/Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-symbols.list \
 	--dsym=no \
 	-r \
@@ -34,6 +42,24 @@
 	/Users/wenkewahl/Desktop/MobileProject/packages/Prism.Forms.6.3.0/lib/Xamarin.iOS1.0/Prism.Forms.dll \
 	-r \
 	/Users/wenkewahl/Desktop/MobileProject/packages/Prism.Unity.Forms.6.3.0/lib/Xamarin.iOS1.0/Prism.Unity.Forms.dll \
+=======
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/bin/Debug/finalProject.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/CommonServiceLocator.1.3/lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Unity.4.0.1/lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Prism.Core.6.3.0/lib/Xamarin.iOS10/Prism.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Prism.Forms.6.3.0/lib/Xamarin.iOS1.0/Prism.Forms.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Prism.Unity.Forms.6.3.0/lib/Xamarin.iOS1.0/Prism.Unity.Forms.dll \
+>>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-cache/arguments
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
 	-r \
@@ -41,6 +67,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
 	-r \
+<<<<<<< HEAD:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/arguments
 	/Users/wenkewahl/Desktop/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
 	-r \
 	/Users/wenkewahl/Desktop/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
@@ -48,6 +75,15 @@
 	/Users/wenkewahl/Desktop/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
 	-r \
 	/Users/wenkewahl/Desktop/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+=======
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+>>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-cache/arguments
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
 	-r \
@@ -325,6 +361,7 @@
 	-r \
 	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Facades/System.Xml.Xsl.Primitives.dll \
 	-r \
+<<<<<<< HEAD:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.2/mtouch-cache/arguments
 	/Users/wenkewahl/Desktop/MobileProject/finalProject/bin/Debug/finalProject.dll \
 	-r \
 	/Users/wenkewahl/Desktop/MobileProject/packages/CommonServiceLocator.1.3/lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll \
@@ -419,3 +456,99 @@
 	--target-framework \
 	'Xamarin.iOS,v1.0' \
 	/Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/finalProject.iOS.exe \
+=======
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/bin/Debug/finalProject.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/CommonServiceLocator.1.3/lib/portable-net4+sl5+netcore45+wpa81+wp8/Microsoft.Practices.ServiceLocation.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Unity.4.0.1/lib/portable-net45+wp80+win8+wpa81+MonoAndroid10+MonoTouch10/Microsoft.Practices.Unity.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Prism.Core.6.3.0/lib/Xamarin.iOS10/Prism.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Prism.Forms.6.3.0/lib/Xamarin.iOS1.0/Prism.Forms.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Prism.Unity.Forms.6.3.0/lib/Xamarin.iOS1.0/Prism.Unity.Forms.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Core.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Platform.iOS.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/Xamarin.Forms.Xaml.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/bin/Debug/Newtonsoft.Json.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/bin/Debug/System.Net.Http.Primitives.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ar/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ca/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/cs/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/da/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/de/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/el/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/es/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fi/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/fr/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/he/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hi/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hr/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/hu/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/id/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/it/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ja/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ko/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ms/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nb/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/nl/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pl/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/pt-BR/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ro/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/ru/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sk/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/sv/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/th/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/tr/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/uk/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/vi/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-HK/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hans/Xamarin.Forms.Platform.iOS.resources.dll \
+	-r \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/packages/Xamarin.Forms.2.5.0.121934/lib/Xamarin.iOS10/zh-Hant/Xamarin.Forms.Platform.iOS.resources.dll \
+	--target-framework \
+	'Xamarin.iOS,v1.0' \
+	/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/finalProject.iOS.exe \
+>>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23:finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/mtouch-cache/arguments

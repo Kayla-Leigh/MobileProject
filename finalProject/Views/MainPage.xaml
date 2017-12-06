@@ -24,7 +24,7 @@
             <Entry
                 HorizontalOptions="Center"
                 Placeholder="Enter Zip Code"
-                Text="{Binding LocationEnteredByUser}"
+                Text="{Binding LocationEnteredByUser}" TextColor="#3BB9FF"
                 WidthRequest="200" />
             <Button
                 Text="Search" TextColor="#3BB9FF"
@@ -45,25 +45,33 @@
                                 Command="{Binding NavToMoreInfoPageCommand}"
                                 CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
                                 Text="More" />
+                            <MenuItem 
+                                x:Name="DeleteButton"
+                                AutomationId="DeleteButton"
+                                BindingContext="{Binding Source={x:Reference AdoptionListView}, Path=BindingContext}"
+                                Command="{Binding DeleteCommand}"
+                                CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
+                                Text="Delete"
+                                IsDestructive="True" />
                         </ViewCell.ContextActions>
                         <ViewCell.View>
                             <StackLayout
                                 Orientation="Horizontal">
-                                <!--<Label
+                                <Label
                                     x:Name="LocationNameLabel"
-                                    Text="{Binding Name}"
+                                    Text="{Binding Animal.AnimalType}"
                                     VerticalOptions="Center"
-                                    Margin="10" />-->
+                                    Margin="10" />
                                 <Label
                                     x:Name="TemperatureLabel"
-                                    Text="{Binding PetFinder.Pets.Pet[0].Animal.AnimalType}"
+                                    Text="{Binding Contact.Zip.ZipCode}"
                                     VerticalOptions="Center"
                                     Margin="3" />
-                                <!--<Label
+                                <Label
                                     x:Name="CloudLabel"
-                                    Text="{Binding Clouds.All, StringFormat='Cloud %: {0}'}"
+                                    Text="{Binding Breeds.Breed.BreedType}"
                                     VerticalOptions="Center"
-                                    Margin="3" />-->
+                                    Margin="3" />
                             </StackLayout>
                         </ViewCell.View>
                     </ViewCell>

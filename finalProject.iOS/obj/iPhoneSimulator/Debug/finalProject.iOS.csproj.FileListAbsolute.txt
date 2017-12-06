@@ -17,7 +17,6 @@
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll.mdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
@@ -148,6 +147,7 @@
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/logo.png
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/splashscreen.png
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/petfinder.png
+<<<<<<< HEAD
 /Users/wenkewahl/Desktop/Christmas-FinalProject/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/finalProject.iOS.exe
 /Users/wenkewahl/Desktop/Christmas-FinalProject/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/finalProject.iOS.pdb
 /Users/wenkewahl/Desktop/Christmas-FinalProject/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/finalProject.dll
@@ -301,3 +301,8 @@
 /Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/finalProject.iOS.exe
 /Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/finalProject.iOS.pdb
 /Users/wenkewahl/Desktop/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Microsoft.Practices.ServiceLocation.dll.mdb
+=======
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/logo.png
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/splashscreen.png
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/petfinder.png
+>>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23
