@@ -38,7 +38,7 @@ namespace finalProject.ViewModels
 
         public void GoMapPage()
         {
-            
+            _navigationService.NavigateAsync("MapPage");
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)

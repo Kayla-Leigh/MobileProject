@@ -33,8 +33,8 @@
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.Android.dll
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/Xamarin.Forms.Platform.dll
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/Xamarin.Forms.Xaml.dll
-/Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/System.Diagnostics.Debug.dll
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/Newtonsoft.Json.dll
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/System.Resources.ResourceManager.dll
 /Users/wenkewahl/Desktop/MobileProject/finalProject.Droid/obj/Debug/android/assets/System.IO.dll
