@@ -17,7 +17,6 @@
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.dll.mdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Core.xml
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.pdb
-/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Platform.iOS.dll.mdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.pdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.dll.mdb
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/bin/iPhoneSimulator/Debug/Xamarin.Forms.Xaml.xml
@@ -148,3 +147,6 @@
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/logo.png
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/splashscreen.png
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/petfinder.png
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/logo.png
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/splashscreen.png
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/petfinder.png

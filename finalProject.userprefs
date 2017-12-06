@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{F9A9F719-18D2-4AEE-89EC-108A23B5BE00}|Default">
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15A2897D-B86A-41AA-9E94-B677BAF7B00F" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/ViewModels/MoreInfoPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Models/AdoptionModel.cs">
     <Files>
       <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="70" Column="9" />
       <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="finalProject/Models/AdoptionModel.cs" Line="42" Column="49" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

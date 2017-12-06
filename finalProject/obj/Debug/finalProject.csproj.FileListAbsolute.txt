@@ -75,3 +75,4 @@
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.Views.AboutUs.xaml.g.cs
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.dll
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/obj/Debug/finalProject.pdb
+/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.Views.AboutUs.xaml.g.cs
