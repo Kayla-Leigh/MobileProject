@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{F9A9F719-18D2-4AEE-89EC-108A23B5BE00}|Default">
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.750F3565-68C0-4041-ABAA-BF2762172D27" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/MoreInfoPage.xaml">
     <Files>
-      <File FileName="finalProject/Views/MainPage.xaml" Line="12" Column="93" />
+      <File FileName="finalProject/Views/MainPage.xaml" Line="70" Column="15" />
+      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="12" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

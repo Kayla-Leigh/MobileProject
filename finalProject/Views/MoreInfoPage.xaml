@@ -9,7 +9,7 @@
         <Image Source="logo.png" />
         <Label Text="PetFinder" Font="Bold" FontSize="25" HorizontalTextAlignment="Center" />
         <Label Text="---------------------------------------------" />
-        <Label Text="Find Pet by Adpotion Center" HorizontalOptions="Center"/>
+        <Label Text="Find Pet by Organization" HorizontalOptions="Center"/>
          <Entry
                 Placeholder="Enter Zip Code"
                 Text="{Binding LocationEnteredByUser}"
