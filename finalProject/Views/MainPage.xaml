@@ -7,19 +7,27 @@
     x:Class="finalProject.Views.MainPage"
     Title="MainPage"
     Padding="0,20,0,0">
-    <StackLayout
-        Padding="0,20,0,0"
-        HorizontalOptions="Center"
-        VerticalOptions="Start">
+
+    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
+        <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
+        <Label Text="---------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center"/> 
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Button
+            Text="About Us" TextColor="#3BB9FF" BorderColor="Silver" BorderRadius = "5" BorderWidth = "1" WidthRequest="90"
+            Command="{Binding NavToNewPageCommand}" />
+            <Button Text="Dog Breeds"  TextColor="#3BB9FF" BorderColor="Silver" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
+            <Button Text="Cat Breeds" TextColor="#3BB9FF" BorderColor="Silver" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
+            </StackLayout>
         <StackLayout
             Orientation="Horizontal"
-            HorizontalOptions="CenterAndExpand">
+            HorizontalOptions="CenterAndExpand" Padding="0,20,0,0">
             <Entry
+                HorizontalOptions="Center"
                 Placeholder="Enter Zip Code"
                 Text="{Binding LocationEnteredByUser}"
                 WidthRequest="200" />
             <Button
-                Text="Search Adoption"
+                Text="Search" TextColor="#3BB9FF"
                 Command="{Binding GetAdoptionForLocationCommand}" />
         </StackLayout>
         <ListView

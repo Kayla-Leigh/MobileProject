@@ -82,18 +82,15 @@ namespace finalProject.ViewModels
                 foreach(Pet pet in adoptionData.PetFinder.Pets.Pet) {
                     AdoptionCollection.Add(pet);
                 }
-
             }
-
-
-
         }
 
         private async void NavToNewPage()
         {
             var navParams = new NavigationParameters();
             navParams.Add("NavFromPage", "MainPageViewModel");
-            await _navigationService.NavigateAsync("SamplePageForNavigation", navParams);
+            await _navigationService.NavigateAsync("AboutUs", navParams);
+
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)
