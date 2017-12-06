@@ -11,8 +11,7 @@
 namespace finalProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/Views/MoreInfoPa" +
-        "ge.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/wenkewahl/Desktop/MobileProject/finalProject/Views/MoreInfoPage.xaml")]
     public partial class MoreInfoPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -7,13 +7,14 @@ using Prism.Navigation;
 using Xamarin.Forms.Xaml;
 using static finalProject.Models.AdoptionModel;
 
-namespace Week9PrismExampleApp.ViewModels
+namespace finalProject.ViewModels
 {
     public class MoreInfoPageViewModel : BindableBase, INavigatedAware
     {
         INavigationService _navigationService;
 
         public DelegateCommand GoBackCommand { get; set; }
+        public DelegateCommand GoMapPageCommand { get; set; } 
 
         private AdoptionItem _adoptionItem;
         public AdoptionItem AdoptionItem
@@ -27,11 +28,17 @@ namespace Week9PrismExampleApp.ViewModels
             _navigationService = navigationService;
 
             GoBackCommand = new DelegateCommand(GoBack);
+            GoMapPageCommand = new DelegateCommand(GoMapPage);
         }
 
         private void GoBack()
         {
             _navigationService.GoBackAsync();
+        }
+
+        public void GoMapPage()
+        {
+            
         }
 
         public void OnNavigatedFrom(NavigationParameters parameters)
