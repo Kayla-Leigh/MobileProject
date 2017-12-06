@@ -12,8 +12,8 @@
             <rect key="frame" x="0.0" y="0.0" width="870" height="790"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="136" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="petfinder3.png">
-                    <rect key="frame" x="0.0" y="116" width="385" height="310"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="260" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" image="splashscreen.png">
+                    <rect key="frame" x="79" y="176" width="222" height="154"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -25,5 +25,11 @@
     </objects>
     <resources>
         <image name="petfinder3.png" width="762" height="540"/>
+        <image name="1.png" width="530" height="350"/>
+        <image name="petfinder.png" width="432" height="196"/>
+        <image name="plz.png" width="1134" height="878"/>
+        <image name="logo.png" width="93" height="72"/>
+        <image name="2.png" width="214" height="172"/>
+        <image name="splashscreen.png" width="310" height="240"/>
     </resources>
 </document>

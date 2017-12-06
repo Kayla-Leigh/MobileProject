@@ -140,12 +140,11 @@
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/ibtool/_BundleResourceWithLogicalName.items
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_PartialAppManifest.items
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/actool/_BundleResourceWithLogicalName.items
-/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/petfinder3.png
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/finalProject.iOS.csprojResolveAssemblyReference.cache
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/finalProject.iOS.csproj.CoreCompileInputs.cache
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/finalProject.iOS.exe
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/finalProject.iOS.pdb
-/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/1.png
+/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/logo.png
+/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/splashscreen.png
 /Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/petfinder.png
-/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.4-11.1/optimized/plz.png

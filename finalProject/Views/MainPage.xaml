@@ -9,7 +9,8 @@
     Padding="0,20,0,0">
 
     <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
-        <Label Text="PetFinder" FontSize="40" Font="Bold" HorizontalTextAlignment="Center"/>
+        <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
+        <Label Text="---------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center"/> 
         <Button
             Text="About Us"
             Command="{Binding NavToNewPageCommand}" />
@@ -17,6 +18,7 @@
             Orientation="Horizontal"
             HorizontalOptions="CenterAndExpand">
             <Entry
+                HorizontalOptions="Center"
                 Placeholder="Enter Zip Code"
                 Text="{Binding LocationEnteredByUser}"
                 WidthRequest="200" />
