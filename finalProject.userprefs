@@ -1,25 +1,9 @@
 ﻿<Properties StartupConfiguration="{F9A9F719-18D2-4AEE-89EC-108A23B5BE00}|Default">
-<<<<<<< HEAD
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15A2897D-B86A-41AA-9E94-B677BAF7B00F" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/ViewModels/MainPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/ViewModels/MoreInfoPageViewModel.cs">
     <Files>
-      <File FileName="finalProject/Views/MainPage.xaml" Line="74" Column="15" />
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="10" Column="39" />
-      <File FileName="finalProject/Models/AdoptionModel.cs" Line="1" Column="1" />
-      <File FileName="finalProject.iOS/Main.cs" Line="21" Column="1" />
-      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="26" Column="1" />
-=======
-  <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.750F3565-68C0-4041-ABAA-BF2762172D27" automaticSigning="False" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/AboutUs.xaml">
-    <Files>
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="81" Column="91" />
-      <File FileName="finalProject/Views/MainPage.xaml" Line="47" Column="43" />
-      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="21" Column="85" />
-      <File FileName="finalProject/Views/AboutUs.xaml" Line="21" Column="52" />
-      <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="22" Column="59" />
-      <File FileName="finalProject.iOS/Main.cs" Line="17" Column="1" />
-      <File FileName="finalProject.iOS/Info.plist" />
->>>>>>> ba73ebc1f77fb4523feb99cf091766447d72fd06
+      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="70" Column="9" />
+      <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

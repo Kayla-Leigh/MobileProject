@@ -11,7 +11,7 @@
 namespace finalProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/gabbybautista/Documents/GitHub/MobileProject/finalProject/Views/AboutUs.xa" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/Views/AboutUs.xa" +
         "ml")]
     public partial class AboutUs : global::Xamarin.Forms.ContentPage {
         
