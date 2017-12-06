@@ -33,8 +33,8 @@ namespace finalProject.Models
             //[JsonProperty("media")]
             //public Media Media { get; set; }
 
-            [JsonProperty("breeds")]
-            public Breeds[] Breeds { get; set; }
+            //[JsonProperty("breeds")]
+            //public Breeds Breeds { get; set; }
 
             [JsonProperty("animal")]
             public Animal Animal { get; set; }
@@ -49,7 +49,7 @@ namespace finalProject.Models
             public partial class Breeds
             {
                 [JsonProperty("breed")]
-                public Breed Breed { get; set; }
+                public Breed[] Breed { get; set; }
             }
 
             public partial class Breed

@@ -15,7 +15,7 @@ namespace finalProject.ViewModels
     {
         public DelegateCommand NavToNewPageCommand { get; set; }
         public DelegateCommand GetAdoptionForLocationCommand { get; set; }
-        public DelegateCommand<AdoptionItem> NavToMoreInfoPageCommand { get; set; }
+        public DelegateCommand<Pet> NavToMoreInfoPageCommand { get; set; }
 
         private string _buttonText;
         public string ButtonText
@@ -38,8 +38,8 @@ namespace finalProject.ViewModels
             set { SetProperty(ref _locationEnteredByUser, value); }
         }
 
-        private ObservableCollection<AdoptionItem> _adoptionCollection = new ObservableCollection<AdoptionItem>();
-        public ObservableCollection<AdoptionItem> AdoptionCollection
+        private ObservableCollection<Pet> _adoptionCollection = new ObservableCollection<Pet>();
+        public ObservableCollection<Pet> AdoptionCollection
         {
             get { return _adoptionCollection; }
             set { SetProperty(ref _adoptionCollection, value); }
@@ -53,13 +53,13 @@ namespace finalProject.ViewModels
 
             NavToNewPageCommand = new DelegateCommand(NavToNewPage);
             GetAdoptionForLocationCommand = new DelegateCommand(GetAdoptionForLocation);
-            NavToMoreInfoPageCommand = new DelegateCommand<AdoptionItem>(NavToMoreInfoPage);
+            NavToMoreInfoPageCommand = new DelegateCommand<Pet>(NavToMoreInfoPage);
 
             Title = "Xamarin Forms Application + Prism";
             ButtonText = "Add Name";
         }
 
-        private async void NavToMoreInfoPage(AdoptionItem adoptionItem)
+        private async void NavToMoreInfoPage(Pet adoptionItem)
         {
             var navParams = new NavigationParameters();
             navParams.Add("AdoptionItemInfo", adoptionItem);
@@ -79,8 +79,14 @@ namespace finalProject.ViewModels
             {
                 var content = await response.Content.ReadAsStringAsync();
                 adoptionData = AdoptionItem.FromJson(content);
+                foreach(Pet pet in adoptionData.PetFinder.Pets.Pet) {
+                    AdoptionCollection.Add(pet);
+                }
+
             }
-            AdoptionCollection.Add(adoptionData);
+
+
+
         }
 
         private async void NavToNewPage()
