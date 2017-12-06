@@ -24,7 +24,7 @@
             <Entry
                 HorizontalOptions="Center"
                 Placeholder="Enter Zip Code"
-                Text="{Binding LocationEnteredByUser}"
+                Text="{Binding LocationEnteredByUser}" TextColor="#3BB9FF"
                 WidthRequest="200" />
             <Button
                 Text="Search" TextColor="#3BB9FF"
@@ -45,6 +45,7 @@
                                 Command="{Binding NavToMoreInfoPageCommand}"
                                 CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
                                 Text="More" />
+                            <MenuItem Text="Delete" IsDestructive="True"/>
                         </ViewCell.ContextActions>
                         <ViewCell.View>
                             <StackLayout

@@ -6,12 +6,11 @@
     prism:ViewModelLocator.AutowireViewModel="True"
     x:Class="finalProject.Views.MoreInfoPage">
 	<StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
-        <Image Source="logo.png" />
-        <Label Text="PetFinder" Font="Bold" FontSize="25" HorizontalTextAlignment="Center" />
-        <Label Text="---------------------------------------------" />
+        <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
+        <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
         <Label Text="Find Pet by Organization" HorizontalOptions="Center"/>
          <Entry
-                Placeholder="Enter Zip Code"
+                Placeholder="Enter Address"
                 Text="{Binding LocationEnteredByUser}"
                 WidthRequest="200" />
         <Button
@@ -19,7 +18,6 @@
                 Command="{Binding GetAdoptionForLocationCommand}" />
         <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
         <Button Text="Map Me!" />
-        <Button Text="Back"
-            Command="{Binding GoBackCommand}" HorizontalOptions="Center"/>
+        <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
         </StackLayout>
 </ContentPage>
