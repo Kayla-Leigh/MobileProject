@@ -45,7 +45,14 @@
                                 Command="{Binding NavToMoreInfoPageCommand}"
                                 CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
                                 Text="More" />
-                            <MenuItem Text="Delete" IsDestructive="True"/>
+                            <MenuItem 
+                                x:Name="DeleteButton"
+                                AutomationId="DeleteButton"
+                                BindingContext="{Binding Source={x:Reference AdoptionListView}, Path=BindingContext}"
+                                Command="{Binding DeleteCommand}"
+                                CommandParameter="{Binding Source={x:Reference AdoptionItemCell}, Path=BindingContext}"
+                                Text="Delete"
+                                IsDestructive="True" />
                         </ViewCell.ContextActions>
                         <ViewCell.View>
                             <StackLayout
