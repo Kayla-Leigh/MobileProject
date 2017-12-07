@@ -17,14 +17,9 @@
                 Text="Search"
                 Command="{Binding GetAdoptionForLocationCommand}" />
         <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
-<<<<<<< HEAD
         <Button Text="Map Me!" 
              Command="{Binding GoMapPageCommand}"/>
         <Button Text="Back"
             Command="{Binding GoBackCommand}" HorizontalOptions="Center"/>
-=======
-        <Button Text="Map Me!" />
-        <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
->>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23
         </StackLayout>
 </ContentPage>
