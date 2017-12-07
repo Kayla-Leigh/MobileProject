@@ -32,6 +32,60 @@ namespace finalProject.Models
 
             [JsonProperty("animal")]
             public Animal Animal { get; set; }
+
+            [JsonProperty("age")]
+            public Age Age { get; set; }
+
+            [JsonProperty("sex")]
+            public Sex Sex { get; set; }
+
+            [JsonProperty("name")]
+            public Name Name { get; set; }
+
+            [JsonProperty("size")]
+            public Size Size { get; set; }
+
+            [JsonProperty("description")]
+            public Description Description { get; set; }
+
+            [JsonProperty("lastUpdate")]
+            public LastUpdate LastUpdate { get; set; }
+        }
+
+        public partial class LastUpdate
+        {
+            [JsonProperty("$t")]
+            public string Update { get; set; }
+        }
+
+        public partial class Description
+        {
+            [JsonProperty("$t")]
+            public string AnimalDescription { get; set; }
+        }
+
+        public partial class Size
+        {
+            [JsonProperty("$t")]
+            public string AnimalSize { get; set; }
+        }
+
+        public partial class Name
+        {
+            [JsonProperty("$t")]
+            public string AnimalName { get; set; }
+        }
+
+        public partial class Sex
+        {
+            [JsonProperty("$t")]
+            public string AnimalSex { get; set; }
+        }
+
+        public partial class Age
+        {
+            [JsonProperty("$t")]
+            public string AnimalAge { get; set; }
         }
 
         public partial class Animal

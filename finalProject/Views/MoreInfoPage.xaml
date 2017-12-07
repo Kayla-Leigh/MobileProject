@@ -8,14 +8,19 @@
 	<StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
         <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
-        <Label Text="Find Pet by Organization" HorizontalOptions="Center"/>
-         <Entry
-                Placeholder="Enter Address"
-                Text="{Binding LocationEnteredByUser}"
-                WidthRequest="200" />
-        <Button
-                Text="Search"
-                Command="{Binding GetAdoptionForLocationCommand}" />
+
+        <Label
+            Text="{Binding PetFinder.Pets.Pet.Name.AnimalName, StringFormat='Name: {0}'}" />
+
+        <Label
+            Text="{Binding Size.AnimalSize, StringFormat='Size: {0}'}" />
+
+        <Label
+            Text="{Binding Description.AnimalDescription, StringFormat='Description: {0}'}" />
+
+        <Label
+            Text="{Binding LastUpdate.Update, StringFormat='Last Updated: {0}'}" />
+        
         <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
         <Button Text="Map Me!" />
         <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />

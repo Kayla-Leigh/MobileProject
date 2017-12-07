@@ -7,7 +7,7 @@ using Prism.Navigation;
 using Xamarin.Forms.Xaml;
 using static finalProject.Models.AdoptionModel;
 
-namespace Week9PrismExampleApp.ViewModels
+namespace finalProject.ViewModels
 {
     public class MoreInfoPageViewModel : BindableBase, INavigatedAware
     {

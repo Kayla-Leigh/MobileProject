@@ -59,17 +59,17 @@
                                 Orientation="Horizontal">
                                 <Label
                                     x:Name="LocationNameLabel"
-                                    Text="{Binding Animal.AnimalType}"
+                                    Text="{Binding Animal.AnimalType, StringFormat='Type: {0}'}"
                                     VerticalOptions="Center"
                                     Margin="10" />
                                 <Label
                                     x:Name="TemperatureLabel"
-                                    Text="{Binding Contact.Zip.ZipCode}"
+                                    Text="{Binding Age.AnimalAge, StringFormat='Age: {0}'}"
                                     VerticalOptions="Center"
                                     Margin="3" />
                                 <Label
                                     x:Name="CloudLabel"
-                                    Text="{Binding Breeds.Breed.BreedType}"
+                                    Text="{Binding Sex.AnimalSex, StringFormat='Sex: {0}'}"
                                     VerticalOptions="Center"
                                     Margin="3" />
                             </StackLayout>
