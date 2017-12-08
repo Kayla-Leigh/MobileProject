@@ -46,6 +46,7 @@
       <DependentUpon>AboutUs.xaml</DependentUpon>
     </Compile>
     <Compile Include="ViewModels\AboutUsViewModel.cs" />
+    <Compile Include="ViewModels\SamplePageForNavigationViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App.xaml">

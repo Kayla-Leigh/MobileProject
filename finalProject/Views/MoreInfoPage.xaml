@@ -5,24 +5,42 @@
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
     prism:ViewModelLocator.AutowireViewModel="True"
     x:Class="finalProject.Views.MoreInfoPage">
+    <ScrollView>
 	<StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
         <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
 
         <Label
-            Text="{Binding adotionItem.Name.AnimalName, StringFormat='Name: {0}'}" />
+            Margin="0, 20"
+            HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Name.AnimalName, StringFormat='Name: {0}'}" />
+
+         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+
 
         <Label
+            Margin="0, 20"
+            HorizontalOptions="Center"
             Text="{Binding adoptionItem.Size.AnimalSize, StringFormat='Size: {0}'}" />
 
+       <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" /> 
+            
         <Label
+            HorizontalOptions="Center"
             Text="{Binding adoptionItem.Description.AnimalDescription, StringFormat='Description: {0}'}" />
 
+        <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+
         <Label
+            Margin="0, 20"
+            HorizontalOptions="Center"
             Text="{Binding adoptionItem.LastUpdate.Update, StringFormat='Last Updated: {0}'}" />
+
+        <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
         
         <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
         <Button Text="Map Me!" />
         <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
         </StackLayout>
+        </ScrollView>
 </ContentPage>
