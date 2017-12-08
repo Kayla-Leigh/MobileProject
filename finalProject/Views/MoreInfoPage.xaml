@@ -10,16 +10,16 @@
         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
 
         <Label
-            Text="{Binding PetFinder.Pets.Pet.Name.AnimalName, StringFormat='Name: {0}'}" />
+            Text="{Binding adotionItem.Name.AnimalName, StringFormat='Name: {0}'}" />
 
         <Label
-            Text="{Binding Size.AnimalSize, StringFormat='Size: {0}'}" />
+            Text="{Binding adoptionItem.Size.AnimalSize, StringFormat='Size: {0}'}" />
 
         <Label
-            Text="{Binding Description.AnimalDescription, StringFormat='Description: {0}'}" />
+            Text="{Binding adoptionItem.Description.AnimalDescription, StringFormat='Description: {0}'}" />
 
         <Label
-            Text="{Binding LastUpdate.Update, StringFormat='Last Updated: {0}'}" />
+            Text="{Binding adoptionItem.LastUpdate.Update, StringFormat='Last Updated: {0}'}" />
         
         <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
         <Button Text="Map Me!" />

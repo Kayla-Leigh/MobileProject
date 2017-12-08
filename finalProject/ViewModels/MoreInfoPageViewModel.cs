@@ -15,8 +15,8 @@ namespace finalProject.ViewModels
 
         public DelegateCommand GoBackCommand { get; set; }
 
-        private AdoptionItem _adoptionItem;
-        public AdoptionItem AdoptionItem
+        private Pet _adoptionItem;
+        public Pet adoptionItem
         {
             get { return _adoptionItem; }
             set { SetProperty(ref _adoptionItem, value); }
@@ -42,7 +42,7 @@ namespace finalProject.ViewModels
         {
             if (parameters.ContainsKey("AdoptionItemInfo"))
             {
-                AdoptionItem = (AdoptionItem)parameters["AdoptionItemInfo"];
+                adoptionItem = (Pet)parameters["AdoptionItemInfo"];
             }
         }
     }
