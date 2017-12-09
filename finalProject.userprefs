@@ -1,28 +1,13 @@
 ﻿<Properties StartupConfiguration="{F9A9F719-18D2-4AEE-89EC-108A23B5BE00}|Default">
-<<<<<<< HEAD
-  <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.909D6366-3103-4C80-A2F2-19849977256D" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/MoreInfoPage.xaml">
-    <Files>
-      <File FileName="finalProject/Views/MainPage.xaml" Line="17" Column="20" />
-      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="20" Column="40" />
-      <File FileName="finalProject/Views/AboutUs.xaml" Line="27" Column="1" />
-      <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="1" Column="1" />
-      <File FileName="finalProject/Views/MapPage.xaml" Line="7" Column="40" />
-      <File FileName="finalProject/Views/MapPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="finalProject/App.xaml.cs" Line="28" Column="60" />
-      <File FileName="finalProject/App.xaml" Line="4" Column="1" />
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="16" Column="31" />
-      <File FileName="finalProject/ViewModels/MapPage.cs" Line="1" Column="1" />
-      <File FileName="finalProject/ViewModels/MapPageViewModel.cs" Line="8" Column="48" />
-      <File FileName="finalProject/Views/MoreInfoPage.xaml.cs" Line="1" Column="1" />
-=======
-  <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.15A2897D-B86A-41AA-9E94-B677BAF7B00F" />
+  <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1B30A81E-9DFD-45B7-877D-9A1038952054" />
   <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/Views/MainPage.xaml">
     <Files>
-      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="77" Column="10" />
-      <File FileName="finalProject/Models/AdoptionModel.cs" Line="71" Column="10" />
-      <File FileName="finalProject/Views/MainPage.xaml" Line="55" Column="56" />
->>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23
+      <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="39" Column="24" />
+      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="26" Column="1" />
+      <File FileName="finalProject/Views/MapPage.xaml" Line="21" Column="1" />
+      <File FileName="finalProject/ViewModels/MapPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="finalProject/Views/MainPage.xaml" Line="82" Column="15" />
+      <File FileName="finalProject/Views/MainPage.xaml.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

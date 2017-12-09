@@ -158,3 +158,12 @@
 =======
 /Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.Views.AboutUs.xaml.g.cs
 >>>>>>> 51a3b61ac3fd64636b024cfbd5b9f338ae3cdd23
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.csprojResolveAssemblyReference.cache
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.csproj.CoreCompileInputs.cache
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.App.xaml.g.cs
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.Views.MainPage.xaml.g.cs
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.Views.MoreInfoPage.xaml.g.cs
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.Views.AboutUs.xaml.g.cs
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.Views.MapPage.xaml.g.cs
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.dll
+/Users/stephen/Desktop/Ingvild/MobileProject/finalProject/obj/Debug/finalProject.pdb
