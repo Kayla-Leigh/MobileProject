@@ -9,7 +9,7 @@ namespace finalProject.ViewModels
 {
     public class AboutUsViewModel : BindableBase, INavigationAware
     {
-
+        
         INavigationService _navigationService;
 
         public DelegateCommand GoBackCommand { get; set; }

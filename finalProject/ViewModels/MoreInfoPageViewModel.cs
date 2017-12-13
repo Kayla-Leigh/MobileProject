@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Prism.Navigation;
 using Xamarin.Forms.Xaml;
+
 using static finalProject.Models.AdoptionModel;
 
 namespace finalProject.ViewModels
@@ -14,6 +15,7 @@ namespace finalProject.ViewModels
         INavigationService _navigationService;
 
         public DelegateCommand GoBackCommand { get; set; }
+        public DelegateCommand NavToMapPageCommand { get; set; }
 
         private Pet _adoptionItem;
         public Pet adoptionItem
@@ -27,6 +29,8 @@ namespace finalProject.ViewModels
             _navigationService = navigationService;
 
             GoBackCommand = new DelegateCommand(GoBack);
+            NavToMapPageCommand = new DelegateCommand(NavToMapPage);
+
         }
 
         private void GoBack()
@@ -38,12 +42,28 @@ namespace finalProject.ViewModels
         {
         }
 
+
+        private async void NavToMapPage()
+        {
+            var navParams = new NavigationParameters();
+            navParams.Add("NavFromPage", "MoreInfoPageViewModel");
+            navParams.Add("AdoptionItemInfo", adoptionItem);
+            await _navigationService.NavigateAsync("MapPage", navParams);
+
+
+
+        }
+
         public void OnNavigatedTo(NavigationParameters parameters)
         {
             if (parameters.ContainsKey("AdoptionItemInfo"))
             {
                 adoptionItem = (Pet)parameters["AdoptionItemInfo"];
             }
+        }
+
+        public void OnNavigatingTo(NavigationParameters parameters)
+        {
         }
     }
 }

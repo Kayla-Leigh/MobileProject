@@ -98,6 +98,15 @@ namespace finalProject.Models
         {
             [JsonProperty("zip")]
             public Zip Zip { get; set; }
+
+            [JsonProperty("city")]
+            public City City { get; set; }
+
+            [JsonProperty("state")]
+            public State State { get; set; }
+
+            [JsonProperty("address1")]
+            public Address Address { get; set; }
         }
 
         public partial class Media
@@ -122,6 +131,24 @@ namespace finalProject.Models
         {
             [JsonProperty("$t")]
             public double ZipCode { get; set; }
+        }
+
+        public partial class State
+        {
+            [JsonProperty("$t")]
+            public string StateLocation { get; set; }
+        }
+
+        public partial class Address
+        {
+            [JsonProperty("$t")]
+            public string AddressLocation { get; set; }
+        }
+
+        public partial class City
+        {
+            [JsonProperty("$t")]
+            public string CityLocation { get; set; }
         }
 
         public partial class AdoptionItem

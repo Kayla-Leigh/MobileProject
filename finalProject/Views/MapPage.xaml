@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+    xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    x:Class="finalProject.Views.MapPage">
+    <ContentPage.Content>
+        <StackLayout
+        VerticalOptions="StartAndExpand"
+        Padding="10">
+           <maps:Map
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand"
+            WidthRequest="400"
+            HeightRequest="600"
+            x:Name="myMap"
+            IsShowingUser="true"
+            MapType="Street">
+            </maps:Map>
+    </StackLayout>     
+    </ContentPage.Content>
+</ContentPage>

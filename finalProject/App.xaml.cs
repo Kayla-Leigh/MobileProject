@@ -8,9 +8,11 @@ using finalProject.Views;
 
 namespace finalProject
 {
+
     public partial class App : PrismApplication
     {
         public App(IPlatformInitializer initializer = null) : base(initializer) { }
+
 
         protected override void OnInitialized()
         {
@@ -25,6 +27,7 @@ namespace finalProject
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<AboutUs>();
             Container.RegisterTypeForNavigation<MoreInfoPage>();
+            Container.RegisterTypeForNavigation<MapPage>();
         }
     }
 }

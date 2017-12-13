@@ -39,7 +39,7 @@
         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
         
         <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
-        <Button Text="Map Me!" />
+        <Button Text="Map Me!" Command="{Binding NavToMapPageCommand}"/>
         <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
         </StackLayout>
         </ScrollView>

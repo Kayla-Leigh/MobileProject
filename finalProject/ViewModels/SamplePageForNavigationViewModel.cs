@@ -12,6 +12,7 @@ namespace finalProject.ViewModels
         INavigationService _navigationService;
 
         public DelegateCommand GoBackCommand { get; set; }
+        public DelegateCommand MapCommand { get; set; }
 
         private string _pageFromText;
         public string PageFromText
@@ -31,6 +32,7 @@ namespace finalProject.ViewModels
         {
             _navigationService.GoBackAsync();
         }
+
 
         public void OnNavigatedFrom(NavigationParameters parameters)
         {
