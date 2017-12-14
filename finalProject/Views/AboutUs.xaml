@@ -26,7 +26,7 @@
         <Label Text="CONTACT US" TextColor="#3BB9FF" />
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
         <Button Text="Email" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2"/>
-        <Button Text="Website" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />
+        <Button x:Name= "WebsiteButton" Text="Website" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />
         </StackLayout>
         <Label Text="---------------------------------------" Style="{StaticResource AboutUsStyle}"/> 
         <Button Text="Register with PetFinder" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />

@@ -28,6 +28,7 @@ namespace finalProject.ViewModels
             GoBackCommand = new DelegateCommand(GoBack);
         }
 
+
         private void GoBack()
         {
             _navigationService.GoBackAsync();

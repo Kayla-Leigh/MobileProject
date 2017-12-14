@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:behaviors="clr-namespace:Prism.Behaviors;assembly=Prism.Forms"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    prism:ViewModelLocator.AutowireViewModel="True"
+    x:Class="finalProject.Views.ContactPage">
+    <ScrollView>
+    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
+        <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
+        <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+
+        <Label
+            Margin="0, 20"
+            HorizontalOptions="Center"
+            Text="Contact Information:" />
+        <Label
+            HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Contact.Address.AddressLocation}" />
+        <Label
+            HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Contact.City.CityLocation}" />
+        <Label
+            HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Contact.State.StateLocation}" />
+        <Label
+            HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Contact.Zip.ZipCode}" />
+        <Label
+            HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Contact.Phone.PhoneNumber}" />
+
+         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+
+
+        <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
+        </StackLayout>
+        </ScrollView>
+</ContentPage>

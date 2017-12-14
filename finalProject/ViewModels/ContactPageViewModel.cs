@@ -10,13 +10,11 @@ using static finalProject.Models.AdoptionModel;
 
 namespace finalProject.ViewModels
 {
-    public class MoreInfoPageViewModel : BindableBase, INavigatedAware
+    public class ContactPageViewModel : BindableBase, INavigatedAware
     {
         INavigationService _navigationService;
 
         public DelegateCommand GoBackCommand { get; set; }
-        public DelegateCommand NavToMapPageCommand { get; set; }
-        public DelegateCommand NavToContactPageCommand { get; set; }
 
         private Pet _adoptionItem;
         public Pet adoptionItem
@@ -25,13 +23,11 @@ namespace finalProject.ViewModels
             set { SetProperty(ref _adoptionItem, value); }
         }
 
-        public MoreInfoPageViewModel(INavigationService navigationService)
+        public ContactPageViewModel(INavigationService navigationService)
         {
             _navigationService = navigationService;
 
             GoBackCommand = new DelegateCommand(GoBack);
-            NavToMapPageCommand = new DelegateCommand(NavToMapPage);
-            NavToContactPageCommand = new DelegateCommand(NavToContactPage);
 
         }
 
@@ -45,30 +41,8 @@ namespace finalProject.ViewModels
             if (parameters.ContainsKey("AdoptionItemInfo"))
             {
                 adoptionItem = (Pet)parameters["AdoptionItemInfo"];
+
             }
-        }
-
-
-        private async void NavToMapPage()
-        {
-            var navParams = new NavigationParameters();
-            navParams.Add("NavFromPage", "MoreInfoPageViewModel");
-            navParams.Add("AdoptionItemInfo", adoptionItem);
-            await _navigationService.NavigateAsync("MapPage", navParams);
-
-
-
-        }
-
-        private async void NavToContactPage()
-        {
-            var navParams = new NavigationParameters();
-            navParams.Add("NavFromPage", "MoreInfoPageViewModel");
-            navParams.Add("AdoptionItemInfo", adoptionItem);
-            await _navigationService.NavigateAsync("ContactPage", navParams);
-
-
-
         }
 
         public void OnNavigatedTo(NavigationParameters parameters)
@@ -81,6 +55,10 @@ namespace finalProject.ViewModels
 
         public void OnNavigatingTo(NavigationParameters parameters)
         {
+            if (parameters.ContainsKey("AdoptionItemInfo"))
+            {
+                adoptionItem = (Pet)parameters["AdoptionItemInfo"];
+            }
         }
     }
 }

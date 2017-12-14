@@ -28,6 +28,7 @@ namespace finalProject
             Container.RegisterTypeForNavigation<AboutUs>();
             Container.RegisterTypeForNavigation<MoreInfoPage>();
             Container.RegisterTypeForNavigation<MapPage>();
+            Container.RegisterTypeForNavigation<ContactPage>();
         }
     }
 }

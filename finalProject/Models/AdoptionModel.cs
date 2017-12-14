@@ -107,6 +107,15 @@ namespace finalProject.Models
 
             [JsonProperty("address1")]
             public Address Address { get; set; }
+
+            [JsonProperty("phone")]
+            public Phone Phone { get; set; }
+        }
+
+        public partial class Phone
+        {
+            [JsonProperty("photos")]
+            public string PhoneNumber { get; set; }
         }
 
         public partial class Media

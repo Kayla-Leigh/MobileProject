@@ -121,3 +121,4 @@
 /Users/Kayla/Desktop/GITCLONEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.Views.MapPage.xaml.g.cs
 /Users/Kayla/Desktop/GITCLONEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.dll
 /Users/Kayla/Desktop/GITCLONEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.pdb
+/Users/Kayla/Desktop/GITCLONEPROJECT/MobileProject/finalProject/obj/Debug/finalProject.Views.ContactPage.xaml.g.cs
