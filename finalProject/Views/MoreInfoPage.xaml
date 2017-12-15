@@ -6,43 +6,49 @@
     prism:ViewModelLocator.AutowireViewModel="True"
     x:Class="finalProject.Views.MoreInfoPage">
     <ScrollView>
-	<StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
+    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center">
         <Label Text="PetFinder" TextColor="#3BB9FF" FontSize="25" HorizontalOptions="Center"/>
-        <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
-
-        <Label
-            Margin="0, 20"
-            HorizontalOptions="Center"
-            Text="{Binding adoptionItem.Name.AnimalName, StringFormat='Name: {0}'}" />
-
-         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
-
-
-        <Label
-            Margin="0, 20"
-            HorizontalOptions="Center"
-            Text="{Binding adoptionItem.Size.AnimalSize, StringFormat='Size: {0}'}" />
-
-       <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" /> 
             
-        <Label
-            HorizontalOptions="Center"
-            Text="{Binding adoptionItem.Description.AnimalDescription, StringFormat='Description: {0}'}" />
-
         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+            <Label Text="LEARN MORE ABOUT ME" HorizontalOptions="Center" TextColor="#3BB9FF"  FontSize="20"/>
+             <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+             <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+        <Label  FontSize="15" HorizontalOptions="Center"
+            Text="{Binding adoptionItem.Name.AnimalName, StringFormat='Name: {0}'}" TextColor="#3BB9FF"  />
+            <Label Text=" " />
+        <Label  FontSize="15" HorizontalOptions="Center" 
+            Text="{Binding adoptionItem.Size.AnimalSize, StringFormat='Size:  {0}'}" TextColor="#3BB9FF" />
 
-        <Label
-            Margin="0, 20"
-            HorizontalOptions="Center"
-            Text="{Binding adoptionItem.LastUpdate.Update, StringFormat='Last Updated: {0}'}" />
+            </StackLayout>
+           
+        <Label  FontSize="15"
+            Text="{Binding adoptionItem.Description.AnimalDescription, StringFormat='Description:  {0}'}" TextColor="#3BB9FF"/>
+                    <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
 
-        <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+        <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center" TextColor="#3BB9FF"/>
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button  TextColor="#3BB9FF" BorderColor="Transparent" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
+            <Button Text="Click Here" Command="{Binding NavToMapPageCommand}" BackgroundColor="#f0f0f0" BorderColor="#E5E4E2"  TextColor="#3BB9FF" BorderRadius = "5" BorderWidth = "1" WidthRequest="100" />
+          
+            <Button  TextColor="#3BB9FF" BorderColor="Transparent" BorderRadius = "5" BorderWidth = "1" WidthRequest="100"/>
 
-        <Button Text="Contact Information" Command="{Binding NavToContactPageCommand}"/>
-        
-        <Label Text="See the Adoption Center on Maps" HorizontalOptions="Center"/>
-        <Button Text="Map Me!" Command="{Binding NavToMapPageCommand}"/>
-        <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
+               </StackLayout>
+                <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+                <Label Text="To contact the Adoption Center" HorizontalOptions="Center" TextColor="#3BB9FF"/>
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+            <Button  BackgroundColor="Transparent" BorderColor="Transparent" BorderRadius = "5" BorderWidth = "1" WidthRequest="50" HorizontalOptions="Center" />
+                <Button Text="Contact Information" BackgroundColor="#f0f0f0" HorizontalOptions="Center" BorderColor="#E5E4E2"  TextColor="#3BB9FF" BorderRadius = "5" BorderWidth = "1" WidthRequest="200" Command="{Binding NavToContactPageCommand}"/>
+        <Button  BackgroundColor="Transparent" BorderColor="Transparent" BorderRadius = "5" HorizontalOptions="Center" BorderWidth= "1" WidthRequest="50" />
+            </StackLayout>
+             <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
+            
+             <Label FontSize="10"  HorizontalOptions="Center"
+            Text="{Binding adoptionItem.LastUpdate.Update, StringFormat='Last Updated: {0}'}" TextColor="#3BB9FF" />  
+            
+        <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" HeightRequest="40"/>
+
+            <Image Source="USE.png" />
+            
         </StackLayout>
         </ScrollView>
 </ContentPage>

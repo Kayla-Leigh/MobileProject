@@ -8,7 +8,9 @@
     Title="PetFinder"
     x:Class="finalProject.Views.AboutUs"
     Padding="0,20,0,0">
-    <Page.Resources>
+    <ScrollView>
+    <StackLayout HorizontalOptions="Center" x:Name="Page"> 
+             <Page.Resources>
         <ResourceDictionary>
             <Color x:Key="dashLineColor">#FFDB58</Color>
             <Color x:Key="textColor">#3BB9FF</Color>>
@@ -18,25 +20,49 @@
             </Style>
             </ResourceDictionary>
         </Page.Resources>
-    <ScrollView>
-    <StackLayout Padding="0,20,0,0" HorizontalOptions="Center"> 
-         <Label Text="PetFinder" TextColor="{StaticResource textColor}" Style="{StaticResource AboutUsStyle}"/>
-         <Label Text="An Easy way to find your furry friend!" TextColor="{StaticResource textColor}" FontSize="15" HorizontalTextAlignment="Center" />
-        <Label Text="---------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center"/> 
-        <Label Text="CONTACT US" TextColor="#3BB9FF" />
+          <Label Text="PetFinder" TextColor="{StaticResource textColor}" FontSize="30" Style="{StaticResource AboutUsStyle}"/>
+
+         <Label Text="An Easy way to find your furry friend!" Font="Italic" TextColor="#3BB9FF" FontSize="10" Style="{StaticResource AboutUsStyle}" />
+         <Label Text="------------------------------------------------" TextColor="{StaticResource dashLineColor}" HorizontalOptions="Center"/> 
+            <Label Text="ABOUT US" FontSize="25" Font="Bold" TextColor="{StaticResource textColor}" HorizontalOptions="Center"/>
+         <Label Text="------------------------------------------------" TextColor="{StaticResource dashLineColor}" HorizontalOptions="Center"/> 
+            <Label Text="MISSION" FontSize="25" TextColor="{StaticResource textColor}" Font="Bold" HorizontalOptions="Center"/>
+            <Label Text="The use the Internet technology and the resources it can generate to:" HeightRequest="40" FontSize="15" TextColor="{StaticResource textColor}" />
+            <Label Text=" * Increase public awareness of the availability of high quality adoptable pets" FontSize="15" TextColor="{StaticResource textColor}" HeightRequest="40"/>
+            <Label Text=" * Increase the overall effectiveness of pet adoption programs across North America to the extent that the euthanasia of adoptable pets is eliminated" HeightRequest="40" FontSize="15" TextColor="{StaticResource textColor}" />
+            <Label Text=" * Elevate the status of pets to that of family member" TextColor="{StaticResource textColor}" FontSize="15" />
+        <Label Text="------------------------------------------------" TextColor="{StaticResource dashLineColor}" HorizontalOptions="Center"/> 
+        <Label Text="CONTACT US" TextColor="{StaticResource textColor}" FontSize="25" Font="Bold" Style="{StaticResource AboutUsStyle}" />
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-        <Button Text="Email" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2"/>
-        <Button x:Name= "WebsiteButton" Text="Website" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />
+        <Button Text="Email" TextColor="{StaticResource textColor}" BorderColor="#f0f0f0" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#f0f0f0"/>
+        <Button Text="Website" TextColor="{StaticResource textColor}" BorderColor="#f0f0f0" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#f0f0f0" />
+                </StackLayout>
+              <StackLayout HorizontalOptions="Center" Padding="0,10,0,0">
+                 <Label Text="-----------------------------------------------" TextColor="{StaticResource dashLineColor}" Style="{StaticResource AboutUsStyle}"/> 
+        <Label Text="QUESTIONS" TextColor="{StaticResource textColor}" HorizontalOptions="Center" />
+                    <Editor Text="Enter Here" BackgroundColor="#f0f0f0" TextColor="{StaticResource textColor}" WidthRequest="30" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+                     <Button  TextColor="Transparent" BorderColor="Transparent" BorderRadius = "1" BorderWidth = "1" WidthRequest="50" BackgroundColor="Transparent" />
+                <Button Text="Send" TextColor="{StaticResource textColor}" BorderColor="Transparent" HorizontalOptions="Center" BorderRadius = "1" BorderWidth = "1" WidthRequest="50" BackgroundColor="Transparent"/>
+                     <Button  TextColor="Transparent" BorderColor="Transparent" BorderRadius = "1" BorderWidth = "1" WidthRequest="50" BackgroundColor="Transparent" />
+                    </StackLayout>
         </StackLayout>
-        <Label Text="---------------------------------------" Style="{StaticResource AboutUsStyle}"/> 
-        <Button Text="Register with PetFinder" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "3" BorderWidth = "1" WidthRequest="80" BackgroundColor="#E5E4E2" />
-        <Label Text="PetFinder is updated DAILY. Organizations wishing to participate should register. Only nonprofit organizations will be included" TextColor="{StaticResource textColor}"/>
-        <Label Text="PetFinder is made up of animal-care professionals and regular people volunteering for their local animal welfare organizations all working together to maintain active and accurate homeless pet lists." TextColor="{StaticResource textColor}"/>
-        <Label Text="Our website:" TextColor="{StaticResource textColor}"/>
-        <Label Text="https://www.petfinder.com" TextColor="#0099FF"/>
-        <Label Text="Email:" TextColor="{StaticResource textColor}"/>
-        <Label Text="pets@petfinder.com" TextColor="#0099FF"/>
-        <Button Text="Back" TextColor="{StaticResource textColor}" Command="{Binding GoBackCommand}" />
+        <Label Text="------------------------------------------------" TextColor="{StaticResource dashLineColor}" Style="{StaticResource AboutUsStyle}"/> 
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button  TextColor="Transparent" BorderColor="Transparent" BorderRadius = "1" BorderWidth = "1" WidthRequest="50" BackgroundColor="Transparent" />
+            <Button Text="Register with PetFinder" TextColor="{StaticResource textColor}" BorderColor="#E5E4E2" BorderRadius = "1" BorderWidth = "1" WidthRequest="200" BackgroundColor="#f0f0f0" />
+             <Button  TextColor="Transparent" BorderColor="Transparent" BorderRadius = "1" BorderWidth = "1" WidthRequest="50" BackgroundColor="Transparent" />
+             </StackLayout>
+                <Label FontSize="15" Text="PetFinder is updated DAILY. Organizations wishing to participate should register. Only nonprofit organizations will be included" TextColor="{StaticResource textColor}"/>
+        <Label FontSize="15" Text="PetFinder is made up of animal-care professionals and regular people volunteering for their local animal welfare organizations all working together to maintain active and accurate homeless pet lists." TextColor="{StaticResource textColor}"/>
+        <Label Text="------------------------------------------------" TextColor="{StaticResource dashLineColor}" HorizontalOptions="Center"/> 
+                <Button Text="Back" TextColor="{StaticResource textColor}" Command="{Binding GoBackCommand}" />
+              <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+             <Switch x:Name="NightMode" IsToggled="false"  Toggled="NightModeToggled" Scale="0.6" />
+<Label FontSize="12" Text="Go Night Mode" TextColor="{StaticResource textColor}" VerticalTextAlignment="Center" /> 
+                 <Switch x:Name="DayMode" IsToggled="false"  Toggled="DayModeToggled" Scale="0.6" />
+<Label FontSize="12" Text="Go Day Time Mode" TextColor="{StaticResource textColor}" VerticalTextAlignment="Center" /> 
+               </StackLayout>
     </StackLayout>
     </ScrollView>
 </ContentPage>

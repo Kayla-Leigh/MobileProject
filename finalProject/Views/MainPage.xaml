@@ -28,11 +28,12 @@
                 WidthRequest="200" />
             <Button
                 Text="Search" TextColor="#3BB9FF"
-                Command="{Binding GetAdoptionForLocationCommand}" />
+                Command="{Binding GetAdoptionForLocationCommand}" />                                     
         </StackLayout>
+
         <ListView
             x:Name="AdoptionListView"
-            ItemsSource="{Binding AdoptionCollection}">
+            ItemsSource="{Binding AdoptionCollection}" SeparatorColor="#3BB9FF" >
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell
@@ -56,21 +57,29 @@
                         </ViewCell.ContextActions>
                         <ViewCell.View>
                             <StackLayout
-                                Orientation="Horizontal">
+                                Orientation="Horizontal" HorizontalOptions="Center">
                                 <Label
+                                    FontSize="15"
+                                    VerticalTextAlignment="Center"
+                                    TextColor="#f4cb42"
                                     x:Name="LocationNameLabel"
-                                    Text="{Binding Animal.AnimalType, StringFormat='Type: {0}'}"
-                                    VerticalOptions="Center"
+                                    Text="{Binding Animal.AnimalType, StringFormat='Type:  {0}'}"
+
                                     Margin="10" />
                                 <Label
+                                     FontSize="15"
+                                    VerticalTextAlignment="Center"
+                                    TextColor="#f4cb42"
                                     x:Name="TemperatureLabel"
-                                    Text="{Binding Age.AnimalAge, StringFormat='Age: {0}'}"
-                                    VerticalOptions="Center"
+                                    Text="{Binding Age.AnimalAge, StringFormat=' Age:  {0} '}"
+                                  
                                     Margin="3" />
                                 <Label
+                                     FontSize="15"
+                                    VerticalTextAlignment="Center"
+                                    TextColor="#f4cb42"
                                     x:Name="CloudLabel"
-                                    Text="{Binding Sex.AnimalSex, StringFormat='Sex: {0}'}"
-                                    VerticalOptions="Center"
+                                    Text="{Binding Sex.AnimalSex, StringFormat=' Sex:  {0}'}"
                                     Margin="3" />
                             </StackLayout>
                         </ViewCell.View>
@@ -79,4 +88,5 @@
             </ListView.ItemTemplate>
         </ListView>
     </StackLayout>
+        
 </ContentPage>

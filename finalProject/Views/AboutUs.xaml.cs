@@ -10,6 +10,19 @@ namespace finalProject.Views
         public AboutUs()
         {
             InitializeComponent();
+
+        }
+
+
+
+        void NightModeToggled(object sender, Xamarin.Forms.ToggledEventArgs e)
+        {
+            Page.BackgroundColor = Color.LightSlateGray;
+        }
+
+        void DayModeToggled(object sender, Xamarin.Forms.ToggledEventArgs e)
+        {
+            Page.BackgroundColor = Color.White;
         }
     }
 }

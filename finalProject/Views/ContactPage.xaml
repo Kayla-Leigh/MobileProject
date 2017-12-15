@@ -12,27 +12,28 @@
         <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
 
         <Label
-            Margin="0, 20"
+            Margin="0, 5"
             HorizontalOptions="Center"
-            Text="Contact Information:" />
+            Text="Contact Information:" TextColor="#3BB9FF"/>
         <Label
-            HorizontalOptions="Center"
+            HorizontalOptions="Center" TextColor="#3BB9FF"
             Text="{Binding adoptionItem.Contact.Address.AddressLocation}" />
         <Label
-            HorizontalOptions="Center"
+            HorizontalOptions="Center" TextColor="#3BB9FF"
             Text="{Binding adoptionItem.Contact.City.CityLocation}" />
         <Label
-            HorizontalOptions="Center"
+            HorizontalOptions="Center" TextColor="#3BB9FF"
             Text="{Binding adoptionItem.Contact.State.StateLocation}" />
         <Label
-            HorizontalOptions="Center"
+            HorizontalOptions="Center" TextColor="#3BB9FF"
             Text="{Binding adoptionItem.Contact.Zip.ZipCode}" />
         <Label
-            HorizontalOptions="Center"
+            HorizontalOptions="Center" TextColor="#3BB9FF"
             Text="{Binding adoptionItem.Contact.Phone.PhoneNumber}" />
 
          <Label Text="---------------------------------------------" TextColor="#FFDB58" HorizontalOptions="Center" />
 
+       
 
         <Button Text="Back" TextColor="#3BB9FF" Command="{Binding GoBackCommand}" />
         </StackLayout>

@@ -1,17 +1,22 @@
 ﻿<Properties StartupConfiguration="{F9A9F719-18D2-4AEE-89EC-108A23B5BE00}|Default">
   <MonoDevelop.Ide.ItemProperties.finalProject.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.FD9E5F1C-7466-432A-B5B3-586C2F073EA3" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/ViewModels/ContactPageViewModel.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="finalProject/ViewModels/MoreInfoPageViewModel.cs">
     <Files>
-      <File FileName="finalProject/Views/ContactPage.xaml" Line="32" Column="71" />
-      <File FileName="finalProject/Models/AdoptionModel.cs" Line="122" Column="10" />
-      <File FileName="finalProject/ViewModels/ContactPageViewModel.cs" Line="18" Column="1" />
+      <File FileName="finalProject/ViewModels/AboutUsViewModel.cs" Line="57" Column="1" />
+      <File FileName="finalProject/ViewModels/ContactPageViewModel.cs" Line="64" Column="2" />
+      <File FileName="finalProject/ViewModels/MainPageViewModel.cs" Line="1" Column="1" />
+      <File FileName="finalProject/Views/AboutUs.xaml" Line="70" Column="1" />
+      <File FileName="finalProject.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="finalProject/Views/AboutUs.xaml.cs" Line="1" Column="1" />
+      <File FileName="finalProject/Views/MapPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="finalProject/Views/MapPage.xaml" Line="33" Column="1" />
+      <File FileName="finalProject/Views/MoreInfoPage.xaml" Line="30" Column="32" />
+      <File FileName="finalProject/ViewModels/MoreInfoPageViewModel.cs" Line="18" Column="51" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/Kayla/Desktop/GITCLONEPROJECT/MobileProject/finalProject/ViewModels/ContactPageViewModel.cs" relfile="finalProject/ViewModels/ContactPageViewModel.cs" line="41" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />

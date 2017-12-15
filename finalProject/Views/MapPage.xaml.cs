@@ -7,11 +7,11 @@ using Xamarin.Forms.Maps;
 namespace finalProject.Views
 
 {
-    
+
     public partial class MapPage : ContentPage
     {
 
-  
+
         public MapPage()
         {
             InitializeComponent();
@@ -19,7 +19,7 @@ namespace finalProject.Views
 
 
             ((MapPageViewModel)this.BindingContext).myMap = myMap;
-                   
+
         }
 
 

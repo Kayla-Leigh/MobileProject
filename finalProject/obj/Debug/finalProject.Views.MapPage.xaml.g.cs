@@ -11,8 +11,8 @@
 namespace finalProject.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Kayla/Desktop/THEMOBILEPROJECT/MobileProject/finalProject/Views/MapPage.xa" +
-        "ml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("/Users/Kayla/Desktop/GITCLONEPROJECT/MobileProject/finalProject/Views/MapPage.xam" +
+        "l")]
     public partial class MapPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
